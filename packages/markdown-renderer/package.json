@@ -4,6 +4,9 @@
   "description": "Shared utils for Dolan",
   "license": "MIT",
   "author": "Ray <nn_201312@163.com> (https://raycoder.me)",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dolan-x/dolan-lib.git",

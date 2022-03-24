@@ -40,7 +40,7 @@ export interface Page {
   metas: Record<string, unknown>
 }
 
-export type Config = Record<string, unknown>;
+export type Config = Record<string, any>;
 export interface ConfigFunctions {
   sitemap: {
     postsBaseUrl: string
