@@ -1,12 +1,15 @@
+export type Metas = Record<string, any>
+export type Slug = string
+
 export interface Author {
-  slug: string
+  slug: Slug
   name: string
   avatar: string
   bio: string
 }
 
 export interface Post {
-  slug: string
+  slug: Slug
   title: string
   content: string
   excerpt: string
@@ -15,29 +18,29 @@ export interface Post {
   status: string
   sticky: boolean
   hidden: boolean
-  authors: string[]
-  tags: string[]
-  categories: string[]
-  metas: Record<string, unknown>
+  authors: Slug[]
+  tags: Slug[]
+  categories: Slug[]
+  metas: Metas
 }
 
 export interface Tag {
-  slug: string
+  slug: Slug
   name: string
   description: string
 }
 
 export interface Category {
-  slug: string
+  slug: Slug
   name: string
   description: string
 }
 
 export interface Page {
-  slug: string
+  slug: Slug
   title: string
   content: string
-  metas: Record<string, unknown>
+  metas: Metas
 }
 
 export type Config = Record<string, any>;
@@ -64,9 +67,5 @@ export interface ConfigSite {
   name: string
   description: string
   keywords: string[]
-}
-export interface ConfigUserInjections {
-  css: string
-  js: string
 }
 export type ConfigCustom = Config;
