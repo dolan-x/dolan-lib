@@ -1,6 +1,6 @@
 {
   "name": "@dolan-x/markdown-renderer",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Shared utils for Dolan",
   "license": "MIT",
   "author": "Ray <nn_201312@163.com> (https://raycoder.me)",
@@ -38,7 +38,6 @@
     "rehype-stringify": "^9.0.3",
     "remark-breaks": "^3.0.2",
     "remark-gfm": "^3.0.1",
-    "remark-github": "^11.2.2",
     "remark-html": "^15.0.1",
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
