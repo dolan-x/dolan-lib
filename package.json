@@ -24,7 +24,8 @@
     "stub": "pnpm -r --parallel run stub",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag",
     "test": "vitest",
-    "test:update": "vitest -u"
+    "test:update": "vitest -u",
+    "p": "pnpm publish -r --filter=./packages"
   },
   "dependencies": {
     "rehype-katex": "^6.0.2",
