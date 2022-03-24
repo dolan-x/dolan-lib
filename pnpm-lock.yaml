@@ -44,7 +44,6 @@ importers:
       rehype-stringify: ^9.0.3
       remark-breaks: ^3.0.2
       remark-gfm: ^3.0.1
-      remark-github: ^11.2.2
       remark-html: ^15.0.1
       remark-parse: ^10.0.1
       remark-rehype: ^10.1.0
@@ -53,7 +52,6 @@ importers:
       rehype-stringify: 9.0.3
       remark-breaks: 3.0.2
       remark-gfm: 3.0.1
-      remark-github: 11.2.2
       remark-html: 15.0.1
       remark-parse: 10.0.1
       remark-rehype: 10.1.0
@@ -3213,16 +3211,6 @@ packages:
       unified: 10.1.2
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /remark-github/11.2.2:
-    resolution: {integrity: sha512-uO6q6NOszPFC/dMS6R0ExuMCk8XNuTptgw+eBfjsQiseyiDnUtUKBajN2fHtRo4wDtcjX2UTmZimmKGiYzZq+w==}
-    dependencies:
-      '@types/mdast': 3.0.10
-      mdast-util-find-and-replace: 2.1.0
-      mdast-util-to-string: 3.1.0
-      unified: 10.1.2
-      unist-util-visit: 4.1.0
     dev: false
 
   /remark-html/15.0.1:

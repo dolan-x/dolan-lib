@@ -13,7 +13,6 @@ export default defineBuildConfig({
     "rehype-stringify",
     "remark-breaks",
     "remark-gfm",
-    "remark-github",
     "remark-html",
     "remark-parse",
     "remark-rehype",
