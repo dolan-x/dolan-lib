@@ -15,9 +15,9 @@ export interface Post {
   status: string
   sticky: boolean
   hidden: boolean
-  authors: number[]
-  tags: number[]
-  categories: number[]
+  authors: string[]
+  tags: string[]
+  categories: string[]
   metas: Record<string, unknown>
 }
 
