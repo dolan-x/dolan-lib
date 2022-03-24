@@ -1,0 +1,34 @@
+{
+  "name": "@dolan-x/shared",
+  "version": "0.0.13",
+  "description": "Shared utils for Dolan",
+  "license": "MIT",
+  "author": "Ray <ray@raycoder.me> (https://raycoder.me)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolan-x/dolan-lib.git",
+    "directory": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/dolan-x/dolan-lib/issues"
+  },
+  "homepage": "https://github.com/dolan-x/dolan-lib/tree/main/packages/shared#readme",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub"
+  }
+}
