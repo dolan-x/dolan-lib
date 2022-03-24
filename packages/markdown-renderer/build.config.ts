@@ -9,4 +9,14 @@ export default defineBuildConfig({
   rollup: {
     emitCJS: true,
   },
+  externals: [
+    "rehype-stringify",
+    "remark-breaks",
+    "remark-gfm",
+    "remark-github",
+    "remark-html",
+    "remark-parse",
+    "remark-rehype",
+    "unified",
+  ],
 });
