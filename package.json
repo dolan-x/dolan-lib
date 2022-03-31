@@ -25,8 +25,7 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag",
     "test": "vitest",
     "test:update": "vitest -u",
-    "p": "nr build && pnpm publish -r --filter=./packages",
-    "typecheck": "tsc --noEmit"
+    "p": "nr build && pnpm publish -r --filter=./packages"
   },
   "devDependencies": {
     "@antfu/ni": "^0.13.2",

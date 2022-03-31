@@ -1,5 +1,5 @@
-export type Metas = Record<string, any>;
-export type Slug = string;
+export type Metas = Record<string, any>
+export type Slug = string
 
 export interface Author {
   slug: Slug
