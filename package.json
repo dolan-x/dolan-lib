@@ -1,6 +1,6 @@
 {
   "name": "@dolan-x/monorepo",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "private": true,
   "packageManager": "pnpm@6.32.3",
   "description": "",
@@ -26,10 +26,6 @@
     "test": "vitest",
     "test:update": "vitest -u",
     "p": "nr build && pnpm publish -r --filter=./packages"
-  },
-  "dependencies": {
-    "rehype-katex": "^6.0.2",
-    "remark-math": "^5.1.1"
   },
   "devDependencies": {
     "@antfu/ni": "^0.13.2",
