@@ -32,25 +32,3 @@ exports[`markdown-renderer > should render gfm > markdown-renderer-gfm 1`] = `
 </ol>
 </section>"
 `;
-
-exports[`markdown-renderer > should render github > markdown-renderer-github 1`] = `
-"<p>Some references:</p>
-<ul>
-<li>Commit: f8083175fe890cbf14f41d0a06e7aa35d4989587</li>
-<li>Commit (fork): foo@f8083175fe890cbf14f41d0a06e7aa35d4989587</li>
-<li>Commit (repo): remarkjs/remark@e1aa9f6c02de18b9459b7d269712bcb50183ce89</li>
-<li>Issue or PR (<code>#</code>): #1</li>
-<li>Issue or PR (<code>GH-</code>): GH-1</li>
-<li>Issue or PR (fork): foo#1</li>
-<li>Issue or PR (project): remarkjs/remark#1</li>
-<li>Mention: @wooorm</li>
-</ul>
-<p>Some links:</p>
-<ul>
-<li>Commit: <a href=\\"https://github.com/remarkjs/remark/commit/e1aa9f6c02de18b9459b7d269712bcb50183ce89\\">https://github.com/remarkjs/remark/commit/e1aa9f6c02de18b9459b7d269712bcb50183ce89</a></li>
-<li>Commit comment: <a href=\\"https://github.com/remarkjs/remark/commit/ac63bc3abacf14cf08ca5e2d8f1f8e88a7b9015c#commitcomment-16372693\\">https://github.com/remarkjs/remark/commit/ac63bc3abacf14cf08ca5e2d8f1f8e88a7b9015c#commitcomment-16372693</a></li>
-<li>Issue or PR: <a href=\\"https://github.com/remarkjs/remark/issues/182\\">https://github.com/remarkjs/remark/issues/182</a></li>
-<li>Issue or PR comment: <a href=\\"https://github.com/remarkjs/remark-github/issues/3#issue-151160339\\">https://github.com/remarkjs/remark-github/issues/3#issue-151160339</a></li>
-<li>Mention: <a href=\\"https://github.com/ben-eb\\">https://github.com/ben-eb</a></li>
-</ul>"
-`;
