@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { renderMarkdown } from "@dolan-x/markdown-renderer";
-import { gfm, github } from "./assets/markdown-renderer";
+import { gfm, github } from "./fixtures/markdown-renderer";
 
 describe("markdown-renderer", () => {
   it("works", async() => {
