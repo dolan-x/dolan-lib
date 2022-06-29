@@ -2,7 +2,7 @@
   "name": "@dolan-x/monorepo",
   "version": "0.0.21",
   "private": true,
-  "packageManager": "pnpm@6.32.3",
+  "packageManager": "pnpm@7.4.0",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/dolan-x/dolan-lib#readme",
@@ -25,7 +25,7 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag",
     "test": "vitest",
     "test:update": "vitest -u",
-    "p": "nr build && pnpm publish -r --filter=./packages",
+    "p": "nr build && pnpm publish -r --filter=./packages/*",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
