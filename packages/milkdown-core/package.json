@@ -52,6 +52,7 @@
     "@milkdown/plugin-tooltip": "^6.2.0",
     "@milkdown/plugin-upload": "^6.2.0",
     "@milkdown/preset-gfm": "^6.2.0",
+    "@milkdown/prose": "^6.2.0",
     "@milkdown/theme-nord": "^6.2.0"
   }
 }
