@@ -7,6 +7,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "dolan",
+    "markdown",
+    "markdown-renderer",
+    "remark"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dolan-x/dolan-lib.git",
