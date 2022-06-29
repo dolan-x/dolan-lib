@@ -1,4 +1,4 @@
-import type { Ctx, MilkdownPlugin } from "@milkdown/core";
+import type { MilkdownPlugin } from "@milkdown/core";
 import { Editor, rootCtx } from "@milkdown/core";
 import { nord } from "@milkdown/theme-nord";
 import { gfm } from "@milkdown/preset-gfm";
@@ -28,14 +28,10 @@ const plugins: MilkdownPlugin[] = [
   prism,
 ].flat();
 
-interface CreateMilkdownOptions{
-  extendConfig: (ctx: Ctx) => void
-}
-export function createMilkdownCore (root: HTMLElement, options?: CreateMilkdownOptions): Editor {
+export function createMilkdownCore (root: HTMLElement): Editor {
   return Editor.make()
     .config((ctx) => {
       ctx.set(rootCtx, root);
-      options?.extendConfig && options.extendConfig(ctx);
     })
-    .use(plugins.flat());
+    .use(plugins);
 }
