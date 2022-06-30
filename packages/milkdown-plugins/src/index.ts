@@ -1,5 +1,4 @@
 import type { MilkdownPlugin } from "@milkdown/core";
-import { Editor, rootCtx } from "@milkdown/core";
 import { nord } from "@milkdown/theme-nord";
 import { gfm } from "@milkdown/preset-gfm";
 import { emoji } from "@milkdown/plugin-emoji";
@@ -13,7 +12,7 @@ import { history } from "@milkdown/plugin-history";
 import { clipboard } from "@milkdown/plugin-clipboard";
 import { prism } from "@milkdown/plugin-prism";
 
-const plugins: MilkdownPlugin[] = [
+export const milkdownPlugins: MilkdownPlugin[] = [
   nord,
   gfm,
   emoji,
@@ -27,11 +26,3 @@ const plugins: MilkdownPlugin[] = [
   clipboard,
   prism,
 ].flat();
-
-export function createMilkdownCore (root: HTMLElement): Editor {
-  return Editor.make()
-    .config((ctx) => {
-      ctx.set(rootCtx, root);
-    })
-    .use(plugins);
-}
