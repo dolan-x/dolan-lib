@@ -1,7 +1,7 @@
 {
-  "name": "@dolan-x/milkdown-core",
+  "name": "@dolan-x/milkdown-plugins",
   "version": "0.0.26",
-  "description": "Milkdown core for Dolan",
+  "description": "Milkdown plugins for Dolan",
   "license": "MIT",
   "author": "Ray <nn_201312@163.com> (https://raycoder.me)",
   "publishConfig": {
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/dolan-x/dolan-lib/issues"
   },
-  "homepage": "https://github.com/dolan-x/dolan-lib/tree/main/packages/milkdown-core#readme",
+  "homepage": "https://github.com/dolan-x/dolan-lib/tree/main/packages/milkdown-plugins#readme",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

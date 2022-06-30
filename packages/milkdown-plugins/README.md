@@ -1,3 +1,1 @@
-# @dolan-x/milkdown-core
-
-> DONT USE!
+# @dolan-x/milkdown-plugins
