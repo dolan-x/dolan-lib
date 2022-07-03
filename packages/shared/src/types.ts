@@ -28,6 +28,7 @@ export interface Tag {
   slug: Slug
   name: string
   description: string
+  color: string
 }
 
 export interface Category {
