@@ -1,6 +1,6 @@
 {
   "name": "@dolan-x/monorepo",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "private": true,
   "packageManager": "pnpm@7.4.0",
   "description": "",
