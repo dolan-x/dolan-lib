@@ -63,6 +63,11 @@ export interface ConfigTags {
 }
 export interface ConfigPosts {
   maxPageSize: number
+  defaultContent: string
+}
+export interface ConfigPages {
+  maxPageSize: number
+  defaultContent: string
 }
 export interface ConfigSite {
   name: string
