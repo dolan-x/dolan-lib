@@ -1,7 +1,7 @@
 {
-  "name": "@dolan-x/markdown-renderer",
+  "name": "@dolan-x/rest-api",
   "version": "0.0.29",
-  "description": "Shared utils for Dolan",
+  "description": "Dolan REST API JavaScript SDK",
   "license": "MIT",
   "author": "Ray (@so1ve) <nn_201312@163.com>",
   "publishConfig": {
@@ -9,9 +9,7 @@
   },
   "keywords": [
     "dolan",
-    "markdown",
-    "markdown-renderer",
-    "remark"
+    "rest-api"
   ],
   "repository": {
     "type": "git",
@@ -21,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/dolan-x/dolan-lib/issues"
   },
-  "homepage": "https://github.com/dolan-x/dolan-lib/tree/main/packages/markdown-renderer#readme",
+  "homepage": "https://github.com/dolan-x/dolan-lib/tree/main/packages/rest-api#readme",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -41,14 +39,6 @@
     "stub": "unbuild --stub"
   },
   "dependencies": {
-    "rehype-katex": "^6.0.2",
-    "rehype-stringify": "^9.0.3",
-    "remark-breaks": "^3.0.2",
-    "remark-gfm": "^3.0.1",
-    "remark-html": "^15.0.1",
-    "remark-math": "^5.1.1",
-    "remark-parse": "^10.0.1",
-    "remark-rehype": "^10.1.0",
-    "unified": "^10.1.2"
+    "ohmyfetch": "^0.4.18"
   }
 }
