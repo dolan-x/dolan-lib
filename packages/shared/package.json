@@ -3,7 +3,7 @@
   "version": "0.0.29",
   "description": "Shared utils for Dolan",
   "license": "MIT",
-  "author": "Ray <nn_201312@163.com> (https://raycoder.me)",
+  "author": "Ray (@so1ve) <nn_201312@163.com>",
   "publishConfig": {
     "access": "public"
   },
