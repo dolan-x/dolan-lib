@@ -11,6 +11,7 @@ import { menu } from "@milkdown/plugin-menu";
 import { history } from "@milkdown/plugin-history";
 import { clipboard } from "@milkdown/plugin-clipboard";
 import { prism } from "@milkdown/plugin-prism";
+import { diagram } from "@milkdown/plugin-diagram";
 
 export const milkdownPlugins: MilkdownPlugin[] = [
   nord,
@@ -25,4 +26,5 @@ export const milkdownPlugins: MilkdownPlugin[] = [
   history,
   clipboard,
   prism,
+  diagram,
 ].flat();

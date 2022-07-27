@@ -32,16 +32,16 @@
     "@antfu/ni": "^0.16.3",
     "@babel/types": "^7.18.7",
     "@dolan-x/markdown-renderer": "workspace:*",
-    "@so1ve/eslint-config": "^0.21.5",
-    "@types/node": "^18.0.0",
+    "@so1ve/eslint-config": "^0.25.0",
+    "@types/node": "^18.0.3",
     "bumpp": "^8.2.1",
-    "eslint": "^8.18.0",
+    "eslint": "^8.19.0",
     "jiti": "^1.14.0",
     "pnpm": "^7.4.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.7.4",
     "unbuild": "^0.7.4",
-    "vite": "^2.9.13",
+    "vite": "^2.9.14",
     "vitest": "^0.16.0"
   }
 }

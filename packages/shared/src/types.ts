@@ -41,6 +41,7 @@ export interface Page {
   slug: Slug
   title: string
   content: string
+  hidden: boolean
   metas: Metas
 }
 
