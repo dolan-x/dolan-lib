@@ -1,4 +1,4 @@
-export type Metas = Record<string, any>;
+export interface Metas { [key: string]: any }
 export type Slug = string;
 
 export interface Author {
@@ -45,7 +45,6 @@ export interface Page {
   metas: Metas
 }
 
-export type Config = Record<string, any>;
 export interface ConfigFunctions {
   sitemap: {
     postsBaseUrl: string
@@ -75,4 +74,16 @@ export interface ConfigSite {
   description: string
   keywords: string[]
 }
-export type ConfigCustom = Config;
+
+export interface ConfigCustom { [key: string]: any }
+
+export interface ConfigAll {
+  functions: ConfigFunctions
+  authors: ConfigAuthors
+  categories: ConfigCategories
+  tags: ConfigTags
+  posts: ConfigPosts
+  pages: ConfigPages
+  site: ConfigSite
+  custom: ConfigCustom
+}

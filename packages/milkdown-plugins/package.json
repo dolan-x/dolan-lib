@@ -1,17 +1,14 @@
 {
   "name": "@dolan-x/milkdown-plugins",
   "version": "0.0.30",
-  "description": "Milkdown plugins for Dolan",
-  "license": "MIT",
   "author": "Ray <nn_201312@163.com> (https://raycoder.me)",
-  "publishConfig": {
-    "access": "public"
-  },
+  "description": "Milkdown plugins for Dolan",
   "keywords": [
     "dolan",
     "markdown",
     "milkdown"
   ],
+  "homepage": "https://github.com/dolan-x/dolan-lib/tree/main/packages/milkdown-plugins#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dolan-x/dolan-lib.git",
@@ -20,24 +17,30 @@
   "bugs": {
     "url": "https://github.com/dolan-x/dolan-lib/issues"
   },
-  "homepage": "https://github.com/dolan-x/dolan-lib/tree/main/packages/milkdown-plugins#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "files": [
     "dist"
   ],
-  "sideEffects": false,
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub"
+  },
+  "peerDependencies": {
+    "@milkdown/core": "^6.2.0"
   },
   "dependencies": {
     "@milkdown/plugin-clipboard": "^6.2.0",
@@ -57,9 +60,6 @@
     "@milkdown/theme-nord": "^6.2.0"
   },
   "devDependencies": {
-    "@milkdown/core": "^6.2.0"
-  },
-  "peerDependencies": {
     "@milkdown/core": "^6.2.0"
   }
 }

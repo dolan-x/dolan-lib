@@ -16,6 +16,6 @@ const renderer = unified()
   .use(rehypeKatex)
   .use(rehypeStringify);
 
-export async function renderMarkdown(md: string) {
+export async function renderMarkdown (md: string) {
   return String(await renderer.process(md));
 }
