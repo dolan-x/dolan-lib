@@ -1,4 +1,3 @@
-import type { MilkdownPlugin } from "@milkdown/core";
 import { nord } from "@milkdown/theme-nord";
 import { gfm } from "@milkdown/preset-gfm";
 import { emoji } from "@milkdown/plugin-emoji";
@@ -13,7 +12,7 @@ import { clipboard } from "@milkdown/plugin-clipboard";
 import { prism } from "@milkdown/plugin-prism";
 import { diagram } from "@milkdown/plugin-diagram";
 
-export const milkdownPlugins: MilkdownPlugin[] = [
+export const milkdownPlugins = [
   nord,
   gfm,
   emoji,
@@ -27,4 +26,4 @@ export const milkdownPlugins: MilkdownPlugin[] = [
   clipboard,
   prism,
   diagram,
-].flat();
+];

@@ -58,8 +58,5 @@
     "@milkdown/preset-gfm": "^6.2.0",
     "@milkdown/prose": "^6.2.0",
     "@milkdown/theme-nord": "^6.2.0"
-  },
-  "devDependencies": {
-    "@milkdown/core": "^6.2.0"
   }
 }
