@@ -40,7 +40,8 @@
     "stub": "unbuild --stub"
   },
   "peerDependencies": {
-    "@milkdown/core": "^6.4.1"
+    "@milkdown/core": "^6.4.1",
+    "@milkdown/utils": "^6.4.1"
   },
   "dependencies": {
     "@milkdown/plugin-clipboard": "^6.4.1",
