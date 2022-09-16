@@ -40,26 +40,28 @@
     "stub": "unbuild --stub"
   },
   "peerDependencies": {
-    "@milkdown/core": "^6.2.0"
+    "@milkdown/core": "^6.4.1",
+    "@milkdown/utils": "^6.4.1"
   },
   "dependencies": {
-    "@milkdown/plugin-clipboard": "^6.2.0",
-    "@milkdown/plugin-diagram": "^6.3.1",
-    "@milkdown/plugin-emoji": "^6.2.0",
-    "@milkdown/plugin-history": "^6.2.0",
-    "@milkdown/plugin-indent": "^6.2.0",
-    "@milkdown/plugin-math": "^6.2.0",
-    "@milkdown/plugin-menu": "^6.2.0",
-    "@milkdown/plugin-prism": "^6.2.0",
-    "@milkdown/plugin-slash": "^6.2.0",
-    "@milkdown/plugin-tooltip": "^6.2.0",
-    "@milkdown/plugin-upload": "^6.2.0",
-    "@milkdown/preset-commonmark": "^6.2.0",
-    "@milkdown/preset-gfm": "^6.2.0",
-    "@milkdown/prose": "^6.2.0",
-    "@milkdown/theme-nord": "^6.2.0"
+    "@milkdown/plugin-clipboard": "^6.4.1",
+    "@milkdown/plugin-diagram": "^6.4.1",
+    "@milkdown/plugin-emoji": "^6.4.1",
+    "@milkdown/plugin-history": "^6.4.1",
+    "@milkdown/plugin-indent": "^6.4.1",
+    "@milkdown/plugin-math": "^6.4.1",
+    "@milkdown/plugin-menu": "^6.4.1",
+    "@milkdown/plugin-prism": "^6.4.1",
+    "@milkdown/plugin-slash": "^6.4.1",
+    "@milkdown/plugin-tooltip": "^6.4.1",
+    "@milkdown/plugin-upload": "^6.4.1",
+    "@milkdown/preset-commonmark": "^6.4.1",
+    "@milkdown/preset-gfm": "^6.4.1",
+    "@milkdown/prose": "^6.4.1",
+    "@milkdown/theme-nord": "^6.4.1"
   },
   "devDependencies": {
-    "@milkdown/core": "^6.2.0"
+    "@milkdown/core": "^6.4.1",
+    "@milkdown/utils": "^6.4.1"
   }
 }
