@@ -16,6 +16,8 @@ export default defineBuildConfig({
     "remark-html",
     "remark-parse",
     "remark-rehype",
+    "mdast",
+    "hast",
     "unified",
   ],
 });
