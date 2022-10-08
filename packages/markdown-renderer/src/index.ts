@@ -7,7 +7,7 @@ import remarkRehype from "remark-rehype";
 import rehypeKatex from "rehype-katex";
 import rehypeStringify from "rehype-stringify";
 
-const renderer = unified()
+export const renderer = unified()
   .use(remarkParse)
   .use(remarkBreaks)
   .use(remarkGfm)
