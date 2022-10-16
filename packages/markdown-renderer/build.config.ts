@@ -19,5 +19,6 @@ export default defineBuildConfig({
     "mdast",
     "hast",
     "unified",
+    "unist-util-visit",
   ],
 });
