@@ -8,19 +8,30 @@ import remarkRehype from "remark-rehype";
 import rehypeKatex from "rehype-katex";
 import rehypeStringify from "rehype-stringify";
 
-export function getRenderer (modifyInstance?: (instance: Processor) => void) {
+import { remarkDolanRaw } from "./raw-plugin";
+
+export interface GetRendererOptions {
+  modifyRemark?: (instance: Processor) => void
+  modifyRehype?: (instance: Processor) => void
+}
+export function getRenderer (options: GetRendererOptions = {}) {
   const renderer = unified()
     .use(remarkParse)
     .use(remarkBreaks)
     .use(remarkGfm)
     .use(remarkMath)
-    .use(remarkRehype)
+    .use(remarkDolanRaw);
+  options.modifyRemark?.(renderer);
+  renderer.use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeKatex);
-  modifyInstance?.(renderer);
-  renderer.use(rehypeStringify);
+  options.modifyRehype?.(renderer);
+  renderer.use(rehypeStringify, { allowDangerousHtml: true });
   return renderer;
 }
 export const defaultRenderer = getRenderer();
 export async function renderMarkdown (md: string) {
   return String(await defaultRenderer.process(md));
+}
+export function renderMarkdownSync (md: string) {
+  return String(defaultRenderer.processSync(md));
 }
