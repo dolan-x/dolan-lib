@@ -1,7 +1,7 @@
 {
   "name": "@dolan-x/monorepo",
   "private": true,
-  "version": "0.0.37",
+  "version": "0.0.38",
   "packageManager": "pnpm@7.11.0",
   "author": "Ray <nn_201312@163.com> (https://raycoder.me)",
   "description": "",

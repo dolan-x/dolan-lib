@@ -7,7 +7,7 @@ import { visit } from "unist-util-visit";
 export const remarkDolanRaw: any = () => {
   return (tree: any) => {
     visit(tree, "code", (node: any) => {
-      if (node.lang === "dolan-raw") {
+      if (node.lang === "raw") {
         node.type = "html";
       }
     });
