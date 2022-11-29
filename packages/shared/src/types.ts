@@ -13,8 +13,8 @@ export interface Post {
   title: string
   content: string
   excerpt: string
-  created: string
-  updated: string
+  created: number
+  updated: number
   status: string
   sticky: boolean
   hidden: boolean
