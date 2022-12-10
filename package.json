@@ -22,10 +22,9 @@
     "lint:fix": "nr lint --fix",
     "prepublishOnly": "nr build",
     "stub": "pnpm -r --parallel run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && nr build && pnpm publish -r --filter=./packages/*",
     "test": "vitest",
     "test:update": "vitest -u",
-    "p": "nr build && pnpm publish -r --filter=./packages/*",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
