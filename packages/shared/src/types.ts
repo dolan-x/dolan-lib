@@ -1,4 +1,4 @@
-export interface Metas { [key: string]: any }
+export type Metas = Record<string, any>;
 export type Slug = string;
 
 export interface Author {
@@ -20,7 +20,7 @@ export interface Post {
   hidden: boolean
   authors: Slug[]
   tags: Slug[]
-  categories: Slug[]
+  category: Slug
   metas: Metas
 }
 
@@ -56,10 +56,10 @@ export interface ConfigAuthors {
   maxPageSize: number
 }
 export interface ConfigCategories {
-  maxPageSize: number
+  // maxPageSize: number
 }
 export interface ConfigTags {
-  maxPageSize: number
+  // maxPageSize: number
 }
 export interface ConfigPosts {
   maxPageSize: number
@@ -75,7 +75,7 @@ export interface ConfigSite {
   keywords: string[]
 }
 
-export interface ConfigCustom { [key: string]: any }
+export type ConfigCustom = Record<string, any>;
 
 export interface ConfigAll {
   functions: ConfigFunctions
@@ -86,4 +86,9 @@ export interface ConfigAll {
   pages: ConfigPages
   site: ConfigSite
   custom: ConfigCustom
+}
+
+export interface ConfigItem {
+  name: string
+  value: ConfigAuthors | ConfigCategories | ConfigTags | ConfigPosts | ConfigPages | ConfigSite | ConfigCustom
 }

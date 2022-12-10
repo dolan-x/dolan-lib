@@ -19,9 +19,6 @@
     "url": "https://github.com/dolan-x/dolan-lib/issues"
   },
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "sideEffects": false,
   "exports": {
     ".": {
@@ -36,6 +33,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub"
