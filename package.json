@@ -1,7 +1,7 @@
 {
   "name": "@dolan-x/monorepo",
   "private": true,
-  "version": "0.0.39",
+  "version": "0.0.40",
   "packageManager": "pnpm@7.11.0",
   "author": "Ray <nn_201312@163.com> (https://raycoder.me)",
   "description": "",
@@ -49,7 +49,9 @@
       "@typescript-eslint/eslint-plugin": "5.33.0"
     },
     "peerDependencyRules": {
-      "ignoreMissing": ["@babel/core"]
+      "ignoreMissing": [
+        "@babel/core"
+      ]
     }
   }
 }
