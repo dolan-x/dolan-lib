@@ -25,3 +25,9 @@ A note[^1]
 * [ ] to do
 * [x] done
 `;
+
+export const raw = `
+\`\`\`raw
+<div>raw</div>
+\`\`\`
+`;
