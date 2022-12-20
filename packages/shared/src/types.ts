@@ -92,3 +92,8 @@ export interface ConfigItem {
   name: string
   value: ConfigAuthors | ConfigCategories | ConfigTags | ConfigPosts | ConfigPages | ConfigSite | ConfigCustom
 }
+
+export interface Injection {
+  name: string
+  value: string
+}
