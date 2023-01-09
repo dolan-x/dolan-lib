@@ -50,6 +50,7 @@ export interface ConfigFunctions {
     postsBaseUrl: string
     tagsBaseUrl: string
     categoriesBaseUrl: string
+    pagesBaseUrl: string
   }
 }
 export interface ConfigAuthors {
