@@ -47,10 +47,6 @@ export interface Page {
 
 export interface ConfigFunctions {
   sitemap: {
-    postsBaseUrl: string
-    tagsBaseUrl: string
-    categoriesBaseUrl: string
-    pagesBaseUrl: string
   }
 }
 export interface ConfigAuthors {
@@ -75,6 +71,10 @@ export interface ConfigSite {
   description: string
   keywords: string[]
   url: string
+  postsBaseUrl: string
+  tagsBaseUrl: string
+  categoriesBaseUrl: string
+  pagesBaseUrl: string
 }
 
 export type ConfigCustom = Record<string, any>;
