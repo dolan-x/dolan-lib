@@ -74,6 +74,7 @@ export interface ConfigSite {
   name: string
   description: string
   keywords: string[]
+  url: string
 }
 
 export type ConfigCustom = Record<string, any>;
